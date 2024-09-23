@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <Windows.h>
 using namespace std;
 
 class Student 
@@ -45,7 +44,6 @@ Student::~Student()
 {
     delete[] name;
     cout << "Destruct\n";
-    Sleep(1000);
 }
 int Student::strLength(const char* s) 
 {
